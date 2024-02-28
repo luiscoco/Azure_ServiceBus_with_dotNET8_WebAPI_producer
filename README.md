@@ -1,6 +1,6 @@
 # How to create a .NET8 WebAPI for sending messages to Azure ServiceBus
 
-## 1. Create Azure ServiceBus (Topic and Subscrition)
+## 1. Create Azure ServiceBus (Topic)
 
 ## 2. Create a .NET8 WebAPI with VSCode
 
