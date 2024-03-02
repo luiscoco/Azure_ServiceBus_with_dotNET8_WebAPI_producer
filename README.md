@@ -190,3 +190,29 @@ We execute this command to run the application
 dotnet run
 ```
 
+We navigate to the application endpoint: http://localhost:5256/swagger/index.html
+
+![image](https://github.com/luiscoco/Azure_ServiceBus_with_dotNET8_WebAPI_producer/assets/32194879/6cc58ace-4f47-4287-8d0a-c23418ce8ad2)
+
+![image](https://github.com/luiscoco/Azure_ServiceBus_with_dotNET8_WebAPI_producer/assets/32194879/e39f973e-39a4-424a-a004-e72a29daca94)
+
+After executing the above request we get this response
+
+![image](https://github.com/luiscoco/Azure_ServiceBus_with_dotNET8_WebAPI_producer/assets/32194879/ff39b8ec-72db-4055-8ae6-80f8b1ed72f9)
+
+We confirm in the Azure Service Bus we recevied the message
+
+![image](https://github.com/luiscoco/Azure_ServiceBus_with_dotNET8_WebAPI_producer/assets/32194879/de2a5e26-f3df-410a-9d2c-da5510c3e30a)
+
+We navigate to the subscription and see the received message
+
+![image](https://github.com/luiscoco/Azure_ServiceBus_with_dotNET8_WebAPI_producer/assets/32194879/d0bd1047-3c77-4b8e-9296-d13e794d709a)
+
+See also the custom message property we added to the message
+
+![image](https://github.com/luiscoco/Azure_ServiceBus_with_dotNET8_WebAPI_producer/assets/32194879/8bcd324e-5406-4583-937d-aa0efd08a718)
+
+
+
+
+
