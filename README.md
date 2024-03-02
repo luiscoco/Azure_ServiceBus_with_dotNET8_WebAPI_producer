@@ -1,6 +1,6 @@
 # How to create a .NET8 WebAPI for sending messages to Azure ServiceBus
 
-## 1. Create Azure ServiceBus (Topic and Subscrition)
+## 1. Create Azure ServiceBus (Topic)
 
 We first log in to Azure Portal and search for Azure Service Bus 
 
@@ -33,13 +33,6 @@ Endpoint=sb://myservicebus1974.servicebus.windows.net/;SharedAccessKeyName=RootM
 We have to create a new topic
 
 ![image](https://github.com/luiscoco/Azure_ServiceBus_with_dotNET8_WebAPI_consumer/assets/32194879/4042c8cc-f5f3-4e0e-9dfc-139722d6297d)
-
-We also have to create a new subscription
-
-![image](https://github.com/luiscoco/Azure_ServiceBus_with_dotNET8_WebAPI_consumer/assets/32194879/5da3f4ef-4617-4b29-9b8b-036ddd0e13e1)
-
-![image](https://github.com/luiscoco/Azure_ServiceBus_with_dotNET8_WebAPI_consumer/assets/32194879/6eabacda-7346-4ced-b66c-6fcb8c5815c7)
-
 
 ## 2. Create a .NET8 WebAPI with VSCode
 
